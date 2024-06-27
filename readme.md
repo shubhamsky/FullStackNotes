@@ -1,1 +1,1 @@
-# Notes for interview preparation
+# Notes
