@@ -1,0 +1,43 @@
+Category,Subcategory
+Introduction to C#,History and Overview
+Introduction to C#,Basic Syntax
+Introduction to C#,Data Types and Variables
+Introduction to C#,Operators
+Control Structures,Conditional Statements
+Control Structures,Switch Statements
+Control Structures,Loops
+Control Structures,Jump Statements
+Arrays and Collections,Arrays
+Arrays and Collections,Lists
+Arrays and Collections,Dictionaries
+Object-Oriented Programming (OOP),Classes and Objects
+Object-Oriented Programming (OOP),Inheritance
+Object-Oriented Programming (OOP),Polymorphism
+Object-Oriented Programming (OOP),Encapsulation
+Object-Oriented Programming (OOP),Abstraction
+Exception Handling,Try-Catch Blocks
+Exception Handling,Throw Statement
+Exception Handling,Finally Block
+File Handling,Reading and Writing Files
+File Handling,File I/O Operations
+LINQ (Language Integrated Query),Basics of LINQ
+LINQ (Language Integrated Query),LINQ to Objects
+LINQ (Language Integrated Query),LINQ to XML
+Delegates and Events,Delegate Declaration
+Delegates and Events,Multicast Delegates
+Delegates and Events,Events and Event Handling
+Generics,Generic Classes
+Generics,Generic Methods
+Generics,Constraints
+Advanced Topics,Asynchronous Programming (Async/Await)
+Advanced Topics,Reflection
+Advanced Topics,Attributes
+Advanced Topics,Design Patterns
+Advanced Topics,Dependency Injection
+ASP.NET Core (if relevant),Basics of ASP.NET Core
+ASP.NET Core (if relevant),MVC Architecture
+ASP.NET Core (if relevant),Routing
+ASP.NET Core (if relevant),Controllers and Views
+Entity Framework Core (if relevant),Basics of Entity Framework Core
+Entity Framework Core (if relevant),ORM (Object-Relational Mapping)
+Entity Framework Core (if relevant),CRUD Operations
