@@ -1,14 +1,14 @@
 # SOLID Principles in C#
 
-This repository demonstrates the SOLID principles using C# examples. The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable.
+This repository demonstrates the SOLID principles using C# examples. The SOLID principles are a set of five design principles intended to make software designs more understandable, flexible, and maintainable. The principles are:
 
-## Principles
+1. **[Single Responsibility Principle (SRP)](#1-single-responsibility-principle-srp)** : A class should have only one reason to change, meaning it should only have one job or responsibility.
+2. **[Open/Closed Principle (OCP)](#2-openclosed-principle-ocp)**: Software entities should be open for extension but closed for modification.
+3. **[Liskov Substitution Principle (LSP)](#3-liskov-substitution-principle-lsp)**: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+4. **[Interface Segregation Principle (ISP)](#4-interface-segregation-principle-isp)** Clients should not be forced to depend on interfaces they do not use.
+5. **[Dependency Inversion Principle (DIP)](#5-dependency-inversion-principle-dip)**: High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
-1. **[Single Responsibility Principle (SRP)](#1-single-responsibility-principle-srp)**
-2. **[Open/Closed Principle (OCP)](#2-openclosed-principle-ocp)**
-3. **[Liskov Substitution Principle (LSP)](#3-liskov-substitution-principle-lsp)**
-4. **[Interface Segregation Principle (ISP)](#4-interface-segregation-principle-isp)**
-5. **[Dependency Inversion Principle (DIP)](#5-dependency-inversion-principle-dip)**
+Let's go through each principle with C# examples:
 
 ### 1. Single Responsibility Principle (SRP)
 
