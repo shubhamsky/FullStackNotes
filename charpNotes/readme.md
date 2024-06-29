@@ -154,3 +154,5 @@
     - Basics of Entity Framework Core
     - ORM (Object-Relational Mapping)
     - CRUD Operations
+
+## 2. OOPS 
