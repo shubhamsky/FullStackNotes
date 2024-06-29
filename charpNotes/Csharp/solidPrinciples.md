@@ -36,7 +36,7 @@ public class User {
 }
 ```
 
-In this example, the User class has multiple responsibilities: creating a user, sending an email, and generating a report. This violates the SRP.
+In this example, the __`User`__ class has multiple responsibilities: creating a user, sending an email, and generating a report. This violates the SRP.
 
 ```csharp
 // AFTER SRP:
@@ -62,7 +62,7 @@ public class ReportService {
 }
 ```
 
-Now, each class has a single responsibility: User is responsible for user-related operations, EmailService is responsible for sending emails, and ReportService is responsible for generating reports.
+Now, each class has a single responsibility: __`User`__ is responsible for user-related operations, __`EmailService`__ is responsible for sending emails, and __`ReportService`__ is responsible for generating reports.
 
 ### 2. Open/Closed Principle (OCP)
 
@@ -82,7 +82,7 @@ public class AreaCalculator {
 }
 ```
 
-In this example, if we need to add a new shape, such as a circle, we would have to modify the AreaCalculator class, which violates the OCP.
+In this example, if we need to add a new shape, such as a circle, we would have to modify the __`AreaCalculator`__ class, which violates the OCP.
 
 ```csharp
 // After OCP:
@@ -115,7 +115,7 @@ public class AreaCalculator {
 
 ```
 
-Now, the AreaCalculator class is closed for modification but open for extension. We can add new shapes without modifying the AreaCalculator class.
+Now, the __`AreaCalculator`__ class is closed for modification but open for extension. We can add new shapes without modifying the __`AreaCalculator`__ class.
 
 ### 3. Liskov Substitution Principle (LSP)
 
@@ -137,7 +137,7 @@ public class Ostrich : Bird {
     }
 }
 ```
-Here, substituting Bird with Ostrich will cause an exception, violating the LSP.
+Here, substituting __`Bird`__ with __`Ostrich`__ will cause an exception, violating the LSP.
 
 ```csharp
 // After LSP:
@@ -157,7 +157,7 @@ public class Ostrich : Bird {
 }
 ```
 
-In this revised example, Ostrich does not override Fly, adhering to the LSP. FlyingBird is used for birds that can fly.
+In this revised example, __`Ostrich`__ does not override __`Fly`__, adhering to the LSP. __`FlyingBird`__ is used for birds that can fly.
 
 ### 4. Interface Segregation Principle (ISP)
 
@@ -195,7 +195,7 @@ public class Robot : IWorker {
 }
 ```
 
-Here, Robot is forced to implement Eat method it doesn't use, violating the ISP.
+Here, __`Robot`__ is forced to implement __`Eat`__ method it doesn't use, violating the ISP.
 
 ```csharp
 // After ISP:
@@ -228,7 +228,7 @@ public class Robot : IWorkable {
 }
 ```
 
-Now, Robot only depends on IWorkable, adhering to the ISP. Worker depends on both IWorkable and IFeedable.
+Now, `__Robot`__ only depends on __`IWorkable`__, adhering to the ISP. __`Worker`__ depends on both __`IWorkable`__ and __`IFeedable`__.
 
 ### 5. Dependency Inversion Principle (DIP)
 
@@ -262,7 +262,7 @@ public class Switch {
 }
 ```
 
-In this example, Switch is directly dependent on LightBulb, violating the DIP.
+In this example, __`Switch`__ is directly dependent on __`LightBulb`__, violating the DIP.
 
 ```csharp
 // After DIP:
@@ -297,7 +297,7 @@ public class Switch {
 }
 ```
 
-Now, Switch depends on the abstraction ISwitchable, and LightBulb implements ISwitchable. This adheres to the DIP, as both high-level and low-level modules depend on the abstraction.
+Now, __`Switch`__ depends on the abstraction __`ISwitchable`__, and __`LightBulb`__ implements __`ISwitchable`__. This adheres to the DIP, as both high-level and low-level modules depend on the abstraction.
 
 These detailed examples should provide a clearer understanding of how to apply the SOLID principles in C# to create a more modular and maintainable codebase.
 
