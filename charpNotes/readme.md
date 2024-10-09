@@ -164,3 +164,7 @@
 - Inheritance
 
 - Encapsulation
+
+## 3. SOLID
+
+- Single Responsibility Principle786@
