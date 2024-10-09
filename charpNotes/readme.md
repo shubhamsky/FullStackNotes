@@ -156,3 +156,11 @@
     - CRUD Operations
 
 ## 2. OOPS 
+
+- Abstraction
+
+- Polymorphism
+
+- Inheritance
+
+- Encapsulation
