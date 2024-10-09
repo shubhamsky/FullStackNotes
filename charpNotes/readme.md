@@ -156,3 +156,15 @@
     - CRUD Operations
 
 ## 2. OOPS 
+
+- Abstraction
+
+- Polymorphism
+
+- Inheritance
+
+- Encapsulation
+
+## 3. SOLID
+
+- Single Responsibility Principle786@
